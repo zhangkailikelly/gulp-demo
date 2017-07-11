@@ -1,0 +1,35 @@
+{
+  "name": "gulp-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp run",
+    "check": "gulp checkstyle",
+    "watch": "gulp watch"
+  },
+  "author": "syzx9801@163.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "globby": "^6.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-less": "^3.3.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylefmt": "^1.0.0",
+    "gulp-stylelint": "^3.4.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "hny-gulp-htmlcs": "^1.0.4",
+    "stylelint": "^7.9.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

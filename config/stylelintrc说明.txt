@@ -1,0 +1,83 @@
+{
+    "rules": {
+        /* 基本 */
+        "indentation": 4, // 使用 4 个空格做为一个缩进层级，不允许使用 2 个空格 或 tab 字符。
+        "string-quotes": "double", // 使用双引号。文本内容用引号包围。
+        "max-line-length": 120, // 每行不得超过 120 个字符，除非单行不可分割。
+        "no-extra-semicolons": true, // 无多余分号
+        "function-url-quotes": "never", // [建议] url() 函数中的路径不加引号
+
+        /* 小写 */
+        "selector-pseudo-class-case": "lower",
+        "selector-pseudo-element-case": "lower",
+        "selector-type-case": "lower",
+        "property-case": "lower",
+        "at-rule-name-case": "lower",
+        "media-feature-name-case": "lower",
+        "unit-case": "lower",
+        "function-name-case": "lower",
+        "value-keyword-case": "lower",
+        "color-hex-case": "lower",
+
+        /* 空格 */
+        "declaration-colon-space-before": "never",
+        "declaration-colon-space-after": "always", // 每个声明语句的“:”之前不加空格，之后加 1 个空格。
+        "media-feature-colon-space-before": "never",
+        "media-feature-colon-space-after": "always", // 每个声明语句的“:”之前不加空格，之后加 1 个空格。
+
+        /* 声明 - 通常是属性声明 */
+        "declaration-block-single-line-max-declarations": 1, // 每行最多声明个数，一行一个
+        "declaration-block-semicolon-newline-before": "never-multi-line",
+        "declaration-block-semicolon-newline-after": "always", // [强制] 规则的每个声明在“;”之后换行。
+        "declaration-block-semicolon-space-before": "never", // [强制] 每个声明语句的“;”前后不加空格。
+        "declaration-block-trailing-semicolon": "always", // [强制] 每个声明结束都应该带 1 个分号。
+
+        /* 声明块 */
+        "block-no-empty": true, // 不允许空的声明块
+        "block-no-single-line": true, // 不允许单行声明块
+        "block-closing-brace-newline-before": "always",
+        "block-closing-brace-newline-after": "always", // [强制] 右大括号前后换行。
+        "block-opening-brace-space-before": "always", // [强制] 右大括号之前1个空格，之后无空格。
+
+        "block-opening-brace-newline-after": "always", // [强制] 左大括号之前不换行，之后换行。
+
+        /* 选择器 */
+        "selector-max-compound-selectors": 3, // 复合选择器层级个数
+        "selector-max-empty-lines": 0,
+        "selector-list-comma-space-before": "never", // [强制] 选择器和“,”之间不加空格。
+        "selector-list-comma-newline-before": "never-multi-line",
+        "selector-list-comma-newline-after": "always", // [强制] 选择器列表里的每个选择器声明在“,”之后换行。
+        "selector-combinator-space-after": "always",
+        "selector-combinator-space-before": "always", // [强制] “>”、“+”、“~”选择器的前后加 1 个空格。
+
+        /* 杂项 */
+        "declaration-block-no-redundant-longhand-properties": true, // [建议] 在可以使用缩写的情况下，尽量使用属性缩写。
+        "font-weight-notation": "numeric", // [强制] font-weight 属性必须使用数值方式描述。
+        "font-family-name-quotes": "always-where-recommended", // 字体在需要时使用引号包围
+        "font-family-no-duplicate-names": true, // 无重复字体定义
+        "number-leading-zero": "never", // [建议] 在可以使用缩写的情况下，尽量使用属性缩写。
+        "number-no-trailing-zeros": true,
+        "length-zero-no-unit": true, // [强制] 长度为 0 时省略单位。
+        "color-hex-length": "short", // [强制] 颜色值可以缩写时，使用缩写形式。
+
+        /* 属性值 */
+        "value-list-comma-newline-before": "never-multi-line",
+        "value-list-comma-newline-after": "never-multi-line", 
+        "value-list-comma-space-before": "never",
+        "value-list-comma-space-after": "always", // [强制] 列表型属性值书写在单行时，“,”之前不加空格，之后加 1 个空格。
+
+        "selector-no-qualifying-type": true, // [建议] 不为 id、class 选择器添加类型选择器进行限定。
+        "function-url-quotes": "never",
+
+        /* 媒体查询 */
+        "media-feature-no-missing-punctuation": true, // 不允许丢失符号
+        "media-query-list-comma-newline-after": "always",
+        "media-query-list-comma-space-before": "never", // [强制] Media Query 如果有多个逗号分隔的条件时，应将每个条件放在单独一行中。
+
+        /* 注释 */
+        "comment-whitespace-inside": "always" // 注释和内容之间含空格
+
+        /* 声明顺序*/
+        // declaration-block-properties-order
+    }
+}
